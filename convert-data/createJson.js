@@ -2,7 +2,8 @@ const path = require('path');
 const xlsx = require('xlsx');
 const fs = require('fs');
 
-const excelName = `2022ePOP_Master_Tecace_v1.6.1.xlsx`;
+const excelName = '[File name]';
+const extractData = [];
 
 const createJsonData = () => {
   const excelPath = path.join(__dirname, `./${excelName}`);
@@ -14,11 +15,8 @@ const createJsonData = () => {
   if (!fs.existsSync(resultPath)) {
     fs.mkdirSync(resultPath);
   }
-  ['Pontus_Data', 'Kant_Data', 'History'].forEach(s => {
-    const name = `${resultPath}/${
-      s === 'History' ? `version.json` : `input_${s.replace('_Data', '').toLowerCase()}.json`
-    }`;
-
+  extractData.forEach(s => {
+    const name = `${resultPath}/result.json`;
     fs.writeFileSync(name, JSON.stringify(xlsx.utils.sheet_to_json(excel.Sheets[s])));
   });
 };
