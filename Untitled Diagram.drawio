@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T06:05:24.749Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="F3i7RP9pLetTXFs85m5R" version="20.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-22T06:08:58.503Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="7kSr7Asitwh2sSwkhli5" version="20.0.2" type="github">
   <diagram id="5ZoykS0UEbNrT3gVsl8c" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,6 +9,12 @@
         </mxCell>
         <mxCell id="jCKUjs8-rMFLQWBVa7Qn-2" value="Editor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="203" y="120" width="100" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="OX488cVt35xnLdLlrPb6-16" value="[welcom page]" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=10;" edge="1" parent="jCKUjs8-rMFLQWBVa7Qn-2" target="jCKUjs8-rMFLQWBVa7Qn-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="47" y="100" as="sourcePoint" />
+            <mxPoint x="127" y="100" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="jCKUjs8-rMFLQWBVa7Qn-3" value="Backend" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="364" y="120" width="100" height="710" as="geometry" />
@@ -21,6 +27,21 @@
         </mxCell>
         <mxCell id="jCKUjs8-rMFLQWBVa7Qn-6" value="Samsung Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="700" y="120" width="100" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="OX488cVt35xnLdLlrPb6-13" value="https://sasm.developer.samsung.com" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="28.5" y="198" as="sourcePoint" />
+            <mxPoint x="252.5" y="198" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OX488cVt35xnLdLlrPb6-17" value="https://sasm.developer.samsung.com/editor" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="28.5" y="244" as="sourcePoint" />
+            <mxPoint x="252.5" y="244" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="244" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
